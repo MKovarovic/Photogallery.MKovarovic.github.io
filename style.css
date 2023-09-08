@@ -1,0 +1,105 @@
+#container{
+  margin-left:auto;
+  margin-right:auto;
+
+  width: 1000px;
+  height: 600px;
+}
+
+#Picture{
+
+  height:70%;
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+  display:flex;
+  justify-content:space-between;
+}
+
+#Frame{
+  flex-grow:8;
+  height:100%;
+  width: 600px;
+
+}
+
+#Image{
+  height:100%;
+  width: 100%;
+  border: thin solid black;
+  background-image:url("https://www.gothicz.net/images/fanart/wallpapery/alleyrat/56_1920x1200.jpg");
+background-size: cover;
+}
+
+#Label{
+  height:29%;
+  margin-top:-20%;
+  width: 100%;
+
+  background: grey;
+  opacity: .50;
+  color: black;
+}
+
+button{
+  height: 100%;
+  width:100%;
+  
+}
+
+
+.Button{
+  flex-grow:1;
+}
+
+#Gallery{
+
+  height:20%;
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 30px;
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.thumbnail{
+  height: 100px;
+  width:100px;
+
+  background-image:;
+  background-size: 100px 100px;
+  
+}
+
+.thumbnail:hover{
+  height: 150px;
+  width:150px;
+  background-size: 150px 150px;
+  
+}
+
+.thumbnail:nth-of-type(1) {
+  background-image:url("https://www.gothicz.net/images/fanart/wallpapery/alleyrat/56_1920x1200.jpg");
+}
+
+.thumbnail:nth-of-type(2) {
+  background-image:url("https://www.gothicz.net/images/fanart/wallpapery/alleyrat/57_1920x1200.jpg");
+}
+
+.thumbnail:nth-of-type(3) {
+  background-image:url("https://www.gothicz.net/images/fanart/wallpapery/pivl/38_1920x1200.jpg");
+}
+
+.thumbnail:nth-of-type(4) {
+  background-image:url("https://www.gothicz.net/images/fanart/wallpapery/el-kamil/2_1024x768.jpg");
+}
+
+.thumbnail:nth-of-type(5) {
+  background-image:url("https://www.gothicz.net/images/fanart/wallpapery/milhaus/36_1920x1080.jpg");
+}
+
+.thumbnail:nth-of-type(6) {
+  background-image:url("https://www.gothicz.net/images/fanart/wallpapery/oficialni/41_1920x1200.jpg");
+}
